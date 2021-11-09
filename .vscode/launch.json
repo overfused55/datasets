@@ -1,11 +1,31 @@
 {
+    "objectID": "5005506",
+    "name": "Apple - iPhone SE 16GB - Space Gray",
+    "brand": "Apple",
+    "categories": [
+      "Cell Phones",
+      "iPhone SE"
+    ],
+    "hierarchicalCategories": {
+      "lvl0": "Cell Phones",
+      "lvl1": ["Cell Phones > iPhone", "Cell Phones > Cell Phones with Plans"],
+    },
+    "description": "iPhone SE features a 4-inch Retina display, an A9 chip with 64-bit desktop-class architecture, the Touch ID fingerprint sensor, a 12MP iSight camera, a FaceTime HD camera with Retina Flash, Live Photos, LTE and fast Wi-Fi, iOS 9, and iCloud.",
+    "free_shipping": true,
+    "image": "https://cdn-demo.algolia.com/bestbuy-0118/5005506_sb.jpg",
+    "popularity": 19581,
+    "price": 449.99,
+    "price_range": "200 - 500",
+    "rating": 4,
+    "url": "https://api.bestbuy.com/click/-/5005506/pdp",
     "configurations": [
-        {
-            "type": "pwa-chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
-        }
+    {
+        "name": "Attach to Chrome",
+        "port": 9222,
+        "request": "attach",
+        "type": "pwa-chrome",
+        "webRoot": "${workspaceFolder}"
+    }
     ]
-}
+  }
+  
